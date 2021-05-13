@@ -17,3 +17,121 @@
     width: 100%;
     height: 825px;
 }
+
+.section-1-texts {
+    height: 720px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+    padding: 64px;
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.section-1-texts-wrapper {
+    width: 50%;
+    align-items: flex-start;
+    -webkit-box-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.header-1{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1.75px;
+    line-height: 56px;
+    color: white;
+}
+.header-2{
+    color: white;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+}
+.first-button{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    align-self: center;
+    color: -webkit-link;
+    cursor: pointer;
+}
+.first-button-text{
+    margin-bottom: 0px;
+    margin-right: 16px;
+    white-space: nowrap;
+    background-color: #4100f5;
+    color: white;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 17px 48px;
+}
+.second-button{
+    display: block;
+    
+}
+.second-button-text{
+    width: 100%;
+    background-color: white;
+    border: 0px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    line-height: 0.8;
+    position: relative;
+    border: 1px solid #868686;
+    color: #000000;
+}
