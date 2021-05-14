@@ -1,6 +1,7 @@
 * {
     margin:0%;
     padding:0;
+    box-sizing: border-box;
 }
 .menu {width: 100%; height: 10vh;float: left; background-color: #111;position: relative;}
 .menu a {float: left; text-decoration: none;font-size: 12px;line-height: 16px;letter-spacing: 1px;text-transform: uppercase;border: 0px;display: inline-block;font-weight: 700;padding: 12px 16px 10px; padding-right: 40px;}
@@ -38,7 +39,7 @@
     z-index: 1;
 }
 .header-1{
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px;
@@ -52,7 +53,7 @@
 }
 .header-2{
     color: white;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px 0px 1em;
@@ -134,4 +135,466 @@
     position: relative;
     border: 1px solid #868686;
     color: #000000;
+}
+.play-button{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    filter: brightness(100%);
+    
+}
+.button-playbutton{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    color: rgb(65, 0, 245);
+    display: flex;
+    height: 40px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 16px;
+    width: 40px;
+    
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    border: 0px;
+    line-height: 1;
+    letter-spacing: inherit;
+    padding: 0px;
+    cursor: inherit;
+    position: relative;
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    font: 400 13.3333px Arial;
+}
+.play-button-text{
+    cursor: default;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.section-1-img-info{
+    display: block;
+    align-self: flex-end;
+    z-index: 1;
+}
+
+.section-1-img-info-text{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 12px 16px;
+}
+.section-1-artistinfo{
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: inherit;
+    font-weight: 700;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.section-1-artistinfo-box{
+    text-decoration: none;
+    color: white;
+}
+.section-1-artistinfo-2{
+    opacity: 0.8;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color:white;
+}
+
+.section-2{
+    display: block;
+}
+.discover-container{
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.discover-title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    letter-spacing: -0.25px;
+    line-height: 36px;
+    color: inherit;
+    font-weight: 700;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.discover-imgs{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 32px 0px;
+    width: 100%;
+}
+.producer-block{
+    margin-right: 8px;
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.producer-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-producers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.producer-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.singers-block{
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: auto;
+}
+.singers-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-female-singers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.singers-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mixing-block{
+    margin-right: 8px;
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+.mixing-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-mixing-engineers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.mixing-block-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.songwrites-block{
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: auto;
+}
+.songwrites-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-songwriters.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.songwrites-block-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mastering-block{
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.mastering-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-mastering-engineers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.mastering-block-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.session-block{
+    margin: 8px 0px 0px;
+    width: calc(50% - 8px);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: auto;
+}
+.session-block-background{
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-image: url(./asset/images/sb-category-live-drum-tracks.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    text-align: center;
+}
+.session-block-text{
+    text-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.more-categories{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.more-categories button{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    color: #4100f5;
+    padding: 20px 56px;
+    position: relative;
+    
+
 }
