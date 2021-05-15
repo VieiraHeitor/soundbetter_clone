@@ -304,8 +304,8 @@
 }
 
 .discover-imgs a{
-    margin-bottom: 8px;
-    width: calc(50% - 8px);
+    padding: 8px;
+    width: calc(33% - 8px);
     text-decoration: none;
     color: #000;
     cursor: pointer;
@@ -347,7 +347,7 @@
 }
 
 .producer-block{
-    margin-right: 8px;
+    
     
 }
 .producer-block-background{
@@ -357,7 +357,7 @@
 
 }
 .singers-block{
-    margin-left: auto;
+    
 }
 .singers-block-background{
     background-image: url(./asset/images/sb-category-female-singers.jpg);
@@ -367,7 +367,7 @@
 
 }
 .mixing-block{
-    margin-right: 8px;
+    
 }
 .mixing-block-background{
     background-image: url(./asset/images/sb-category-mixing-engineers.jpg);
@@ -377,7 +377,7 @@
 
 }
 .songwrites-block{
-    margin-left: auto;
+    
 }
 .songwrites-block-background{
     background-image: url(./asset/images/sb-category-songwriters.jpg);
@@ -399,7 +399,7 @@
 }
 
 .session-block{
-    margin-left: auto;
+    
 }
 .session-block-background{
     background-image: url(./asset/images/sb-category-live-drum-tracks.jpg);
@@ -415,6 +415,7 @@
     cursor: pointer;
 }
 .more-categories button {
+    align-items: center;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -435,7 +436,7 @@
     color: #4100f5;
     padding: 20px 56px;
     position: relative;
-    margin-left: 145px;
+    
 
 }
 
