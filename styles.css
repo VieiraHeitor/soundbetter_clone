@@ -346,69 +346,29 @@
     margin-inline-end: 0px;
 }
 
-.producer-block{
-    
-    
-}
 .producer-block-background{
     background-image: url(./asset/images/sb-category-producers.jpg);
-}
-.producer-text{
-
-}
-.singers-block{
-    
 }
 .singers-block-background{
     background-image: url(./asset/images/sb-category-female-singers.jpg);
 
 }
-.singers-text{
-
-}
-.mixing-block{
-    
-}
 .mixing-block-background{
     background-image: url(./asset/images/sb-category-mixing-engineers.jpg);
 
 }
-.mixing-block-text{
-
-}
-.songwrites-block{
-    
-}
 .songwrites-block-background{
     background-image: url(./asset/images/sb-category-songwriters.jpg);
-
-}
-.songwrites-block-text{
-
-}
-
-.mastering-block{
 
 }
 .mastering-block-background{
     background-image: url(./asset/images/sb-category-mastering-engineers.jpg);
 
 }
-.mastering-block-text{
-
-}
-
-.session-block{
-    
-}
 .session-block-background{
     background-image: url(./asset/images/sb-category-live-drum-tracks.jpg);
 
 }
-.session-block-text{
- 
-}
-
 .more-categories{
     text-decoration: none;
     color: black;
