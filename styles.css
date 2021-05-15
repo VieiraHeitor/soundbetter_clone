@@ -17,6 +17,7 @@
     background-size:100%;
     width: 100%;
     height: 825px;
+    
 }
 
 .section-1-texts {
@@ -70,7 +71,6 @@
     padding-bottom: 1em;
 }
 .first-button{
-    box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     background-color: transparent;
@@ -113,7 +113,6 @@
     background-color: white;
     border: 0px;
     white-space: nowrap;
-    box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     border-radius: 500px;
@@ -250,6 +249,8 @@
     color:white;
 }
 
+/* ----- SECTION 2 ----- */
+
 .section-2{
     display: block;
 }
@@ -301,15 +302,15 @@
     margin: 32px 0px;
     width: 100%;
 }
-.producer-block{
-    margin-right: 8px;
-    margin: 8px 0px 0px;
+
+.discover-imgs a{
+    margin-bottom: 8px;
     width: calc(50% - 8px);
     text-decoration: none;
     color: #000;
     cursor: pointer;
 }
-.producer-block-background{
+.discover-imgs a div{
     height: 185px;
     width: 100%;
     display: flex;
@@ -319,14 +320,13 @@
     -webkit-box-pack: center;
     justify-content: center;
     border-radius: 8px;
-    background-image: url(./asset/images/sb-category-producers.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 24px;
     text-align: center;
 }
-.producer-text{
+.discover-imgs h4{
     text-shadow: 1px 1px 6px black;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
@@ -345,227 +345,68 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+.producer-block{
+    margin-right: 8px;
+    
+}
+.producer-block-background{
+    background-image: url(./asset/images/sb-category-producers.jpg);
+}
+.producer-text{
+
+}
 .singers-block{
-    margin: 8px 0px 0px;
-    width: calc(50% - 8px);
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
     margin-left: auto;
 }
 .singers-block-background{
-    height: 185px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 8px;
     background-image: url(./asset/images/sb-category-female-singers.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px;
-    text-align: center;
+
 }
 .singers-text{
-    text-shadow: 1px 1px 6px black;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 700;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 .mixing-block{
     margin-right: 8px;
-    margin: 8px 0px 0px;
-    width: calc(50% - 8px);
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    
 }
 .mixing-block-background{
-    height: 185px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 8px;
     background-image: url(./asset/images/sb-category-mixing-engineers.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px;
-    text-align: center;
+
 }
 .mixing-block-text{
-    text-shadow: 1px 1px 6px black;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 700;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 .songwrites-block{
-    margin: 8px 0px 0px;
-    width: calc(50% - 8px);
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
     margin-left: auto;
 }
 .songwrites-block-background{
-    height: 185px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 8px;
     background-image: url(./asset/images/sb-category-songwriters.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px;
-    text-align: center;
+
 }
 .songwrites-block-text{
-    text-shadow: 1px 1px 6px black;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 700;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 
 .mastering-block{
-    margin: 8px 0px 0px;
-    width: calc(50% - 8px);
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+
 }
 .mastering-block-background{
-    height: 185px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 8px;
     background-image: url(./asset/images/sb-category-mastering-engineers.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px;
-    text-align: center;
+
 }
 .mastering-block-text{
-    text-shadow: 1px 1px 6px black;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 700;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 
 .session-block{
-    margin: 8px 0px 0px;
-    width: calc(50% - 8px);
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
     margin-left: auto;
 }
 .session-block-background{
-    height: 185px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 8px;
     background-image: url(./asset/images/sb-category-live-drum-tracks.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 24px;
-    text-align: center;
+
 }
 .session-block-text{
-    text-shadow: 1px 1px 6px black;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: white;
-    font-weight: 700;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+ 
 }
 
 .more-categories{
@@ -573,7 +414,7 @@
     color: black;
     cursor: pointer;
 }
-.more-categories button{
+.more-categories button {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -591,10 +432,9 @@
     touch-action: manipulation;
     user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
     color: #4100f5;
     padding: 20px 56px;
     position: relative;
-    
+    margin-left: 145px;
 
 }
