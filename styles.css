@@ -2,7 +2,7 @@
     margin:0%;
     padding:0;
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
 }
 a{
     text-decoration: none;
@@ -431,7 +431,7 @@ a{
 
 .section-9{
     background-color: #181818;
-    font-family:Helvetica, Arial, sans-serif;
+    
 }
 .section-9 .container{
     display: flex;
@@ -446,13 +446,117 @@ a{
     margin-right: auto;
     width: 100%;
 }
+.section-9 .container .list-popular{
+    padding: 8px;
+     
+}
+
+.section-9 .container .list-popular-title{
+    box-sizing: border-box;
+    
+    -webkit-tap-highlight-color: transparent;
+    
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-9 .container .list-popular-item{
+    padding: 4px 0px;
+}
+
+.section-9 .container .list-popular-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 0px;
+
+    box-sizing: border-box;
+    
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-align: center;
+    align-items: center;
+    display: block;
+    color: #fff;
+    
+}
+
+.section-9 .container .list-popular-link:hover{
+    text-decoration: underline;
+    
+}
 
 .section-footer{
     background-color: #000;
     color: #8e8e8e;
-    font-family: Helvetica, Arial, sans-serif;
-
+    
 }
+
+.section-10{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 48px 0px;
+    background-color: rgb(24, 24, 24);
+}
+.section-10 .get-started{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 0.67em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 56px;
+    color: #fff;
+    font-weight: 700;
+}
+.section-10 .btn-styles{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    align-self: center;
+}
+.section-10 .btn-styles .btn-inner{
+    background-color: #4100f5;
+    color: #fff;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 17px 48px;
+}
+
+.section-10 .btn-styles .btn-inner:hover{
+    background-color: #4907ff;
+    transform: scale(1.05,1.05);
+}
+
+
 .footer{    
     display: flex;
     -webkit-box-pack: justify;
@@ -476,7 +580,6 @@ a{
 }
 .footer .tagline .text-tagline{
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px 0px 1em;
@@ -500,7 +603,6 @@ a{
     margin-bottom: 4px;
     display: block;
     box-sizing: border-box;
-    font-family:Helvetica, Arial, sans-serif;
     align-items: center;
     text-decoration: none;
     color: #8e8e8e;
@@ -646,3 +748,31 @@ a{
     margin-inline-end: 0px;
     text-align: center;
 }
+
+@font-face {
+    font-family: circular-spotify;
+    src: url('CircularSpotify-UI-Latin-OS2v3-Black.woff2') format('woff2'),
+        url('CircularSpotify-UI-Latin-OS2v3-Black.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: circular-spotify;
+    src: url('CircularSpotify-UI-Latin-OS2v3-Bold.woff2') format('woff2'),
+        url('CircularSpotify-UI-Latin-OS2v3-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: circular-spotify;
+    src: url('CircularSpotify-UI-Latin-OS2v3-Black.woff2') format('woff2'),
+        url('CircularSpotify-UI-Latin-OS2v3-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    }
+      
