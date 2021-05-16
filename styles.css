@@ -448,7 +448,9 @@ a{
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    width: 108px;
+    width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .canvas{
     height: 32px;
