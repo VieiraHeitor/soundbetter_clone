@@ -16,12 +16,10 @@ a{
 }
 .menu a {
     float: left;
-    text-decoration: none;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border: 0px;
     display: inline-block;
     font-weight: 700;
     padding: 12px;
@@ -29,8 +27,6 @@ a{
     color: #8e8e8e;
     margin: 25px;
     list-style-type: none;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
 }
 .menu a ul a{
     margin-right: 16px;
@@ -68,13 +64,9 @@ a{
     -webkit-box-align: center;
     display: flex;
     flex-direction: column;
-    z-index: 1;
 }
 .header-1{
     width: 720px;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
     padding-bottom: 24px;
     font-size: 80px;
     font-weight: 900;
@@ -83,15 +75,10 @@ a{
 }
 .header-2{
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px 0px 1em;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: 0px;
     font-weight: 400;
 }
 .buttons{
@@ -100,12 +87,7 @@ a{
     padding-bottom: 1em;
 }
 .first-button{
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    background-color: transparent;
-    border: 0px;
     border-radius: 500px;
-    display: inline-block;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -113,24 +95,15 @@ a{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    touch-action: manipulation;
-    transition-duration: 33ms;
-    user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
-    padding: 0px;
     align-self: center;
-    color: -webkit-link;
     cursor: pointer;
 }
 .first-button-text{
-    margin-bottom: 0px;
     margin-right: 16px;
-    white-space: nowrap;
     background-color: #4100f5;
     color: white;
     border-radius: 500px;
-    font-size: inherit;
     padding: 17px 48px;
 }
 .second-button{
@@ -140,24 +113,15 @@ a{
 .second-button-text{
     width: 100%;
     background-color: white;
-    border: 0px;
-    white-space: nowrap;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     border-radius: 500px;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
     text-align: center;
-    text-decoration: none;
     text-transform: uppercase;
-    touch-action: manipulation;
-    transition-duration: 33ms;
     cursor: pointer;
-    user-select: none;
     vertical-align: middle;
-    transform: translate3d(0px, 0px, 0px);
     padding: 17px 48px;
     line-height: 0.8;
     position: relative;
@@ -165,51 +129,29 @@ a{
     color: #000000;
 }
 .play-button{
-    -webkit-box-align: center;
     align-items: center;
     display: flex;
-    filter: brightness(100%);
     
 }
 .button-playbutton{
-    -webkit-box-align: center;
     align-items: center;
     background-color: white;
     border-radius: 100%;
     color: rgb(65, 0, 245);
     display: flex;
     height: 40px;
-    -webkit-box-pack: center;
     justify-content: center;
     margin-right: 16px;
     width: 40px;
-    
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     border: 0px;
-    line-height: 1;
-    letter-spacing: inherit;
-    padding: 0px;
-    cursor: inherit;
+    cursor: pointer;
     position: relative;
-    appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
     text-align: center;
     font: 400 13.3333px Arial;
 }
 .play-button-text{
     cursor: default;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 12px;
     font-weight: 700;
     line-height: 16px;
@@ -218,15 +160,10 @@ a{
     color: white;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
 }
 
 .section-1-img-info{
-    display: block;
     align-self: flex-end;
-    z-index: 1;
 }
 
 .section-1-img-info-text{
@@ -234,28 +171,15 @@ a{
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
     padding: 12px 16px;
 }
 .section-1-artistinfo{
-    padding-bottom: 4px;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0px;
-    color: inherit;
     font-weight: 700;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .section-1-artistinfo-box{
     text-decoration: none;
@@ -263,14 +187,6 @@ a{
 }
 .section-1-artistinfo-2{
     opacity: 0.8;
-    white-space: nowrap;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -288,9 +204,7 @@ a{
     padding-top: 48px;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
     align-items: center;
     padding-left: 48px;
     padding-right: 48px;
@@ -301,31 +215,18 @@ a{
 }
 .discover-title{
     text-align: center;
-    font-size: 32px;
     line-height: 40px;
     letter-spacing: -0.5px;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 28px;
-    letter-spacing: -0.25px;
     line-height: 36px;
-    color: inherit;
     font-weight: 700;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .discover-imgs{
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 32px 0px;
@@ -404,10 +305,6 @@ a{
     cursor: pointer;
 }
 .more-categories button {
-    align-items: center;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-tap-highlight-color: transparent;
     background-color: transparent;
     border: 0px;
     border-radius: 500px;
@@ -416,15 +313,9 @@ a{
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 1;
-    text-align: center;
-    text-decoration: none;
     text-transform: uppercase;
-    touch-action: manipulation;
-    user-select: none;
-    vertical-align: middle;
     color: #4100f5;
     padding: 20px 56px;
-    position: relative;
     margin-left: 145px;
 }
 
@@ -517,15 +408,12 @@ a{
 /* ---- Section 3 ---- */
 
 .section-3-wanttowork{
-    display: block;
     background-color: #f5f5f5;
 }
 .section-3-wanttowork article{
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     padding: 90px 0px;
     max-width: 1248px;
@@ -536,31 +424,16 @@ a{
 .section-3-wanttowork article h1{
     font-size: 48px;
     line-height:56px;
-    display: block;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     letter-spacing: -1px;
     font-weight: 700;
     
 }
 .section-3-wanttowork article p{
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: 0px;
-    color: inherit;
     font-weight: 400;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 
