@@ -7,12 +7,38 @@
 a{
     text-decoration: none;
 }
-.menu {width: 100%; height: 10vh;float: left; background-color: #111;position: relative;}
-.menu a {float: left; text-decoration: none;font-size: 12px;line-height: 16px;letter-spacing: 1px;text-transform: uppercase;border: 0px;display: inline-block;font-weight: 700;padding: 12px 16px 10px; padding-right: 40px;}
-.menu a {color: #8e8e8e; margin: 25px;list-style-type: none;box-sizing: border-box;font-family: Helvetica, Arial, sans-serif;}
-#signin {float: right;}
+.menu {
+    width: 100%;
+    height: 10vh;
+    float: left;
+    background-color: #000;
+    position: relative;
+}
+.menu a {
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px;
+    padding-right: 16px;
+    color: #8e8e8e;
+    margin: 25px;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.menu a ul a{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+#signin {float: right; margin-right: 179px;}
 
-.box-logo {box-sizing: border-box; display:block;position: relative;}
+.box-logo {box-sizing: border-box; display:block;position: relative;margin-left: 200px;}
 .logo {max-width: 100%; display: block; width: 136px; height: 25px;}
 
 .section-1 {
@@ -29,31 +55,30 @@ a{
     -webkit-box-pack: justify;
     justify-content: space-between;
     display: flex;
-    padding: 64px;
+    padding: 60px;
     max-width: 1248px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 120px;
     width: 100%;
 }
 .section-1-texts-wrapper {
     width: 50%;
     align-items: flex-start;
+    align-self: center;
     -webkit-box-align: center;
     display: flex;
     flex-direction: column;
     z-index: 1;
 }
 .header-1{
+    width: 720px;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 48px;
+    padding-bottom: 24px;
+    font-size: 80px;
     font-weight: 900;
-    letter-spacing: -1.75px;
-    line-height: 56px;
+    line-height: 88px;
     color: white;
 }
 .header-2{
@@ -308,8 +333,8 @@ a{
 }
 
 .discover-imgs a{
-    margin-bottom: 8px;
-    width: calc(50% - 8px);
+    padding: 8px;
+    width: calc(33% - 8px);
     text-decoration: none;
     color: #000;
     cursor: pointer;
@@ -350,75 +375,36 @@ a{
     margin-inline-end: 0px;
 }
 
-.producer-block{
-    margin-right: 8px;
-    
-}
 .producer-block-background{
     background-image: url(./asset/images/sb-category-producers.jpg);
-}
-.producer-text{
-
-}
-.singers-block{
-    margin-left: auto;
 }
 .singers-block-background{
     background-image: url(./asset/images/sb-category-female-singers.jpg);
 
 }
-.singers-text{
-
-}
-.mixing-block{
-    margin-right: 8px;
-}
 .mixing-block-background{
     background-image: url(./asset/images/sb-category-mixing-engineers.jpg);
 
 }
-.mixing-block-text{
-
-}
-.songwrites-block{
-    margin-left: auto;
-}
 .songwrites-block-background{
     background-image: url(./asset/images/sb-category-songwriters.jpg);
-
-}
-.songwrites-block-text{
-
-}
-
-.mastering-block{
 
 }
 .mastering-block-background{
     background-image: url(./asset/images/sb-category-mastering-engineers.jpg);
 
 }
-.mastering-block-text{
-
-}
-
-.session-block{
-    margin-left: auto;
-}
 .session-block-background{
     background-image: url(./asset/images/sb-category-live-drum-tracks.jpg);
 
 }
-.session-block-text{
- 
-}
-
 .more-categories{
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
 .more-categories button {
+    align-items: center;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -524,6 +510,67 @@ a{
 }
 .footer-socials{
     display: flex;
+    
+
+}
+
+/* ---- Section 3 ---- */
+
+.section-3-wanttowork{
+    display: block;
+    background-color: #f5f5f5;
+}
+.section-3-wanttowork article{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 90px 0px;
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.section-3-wanttowork article h1{
+    font-size: 48px;
+    line-height:56px;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    
+}
+.section-3-wanttowork article p{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: inherit;
+    font-weight: 400;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.section-3-stamps{
+    display: block;
+}
+.section-3-stamps-conteiner{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 48px;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -544,4 +591,58 @@ a{
 .canvas .draw{
     stroke-width: 0.8pt;
     fill: #ffffff;
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.section-3-stamps-conteiner div{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    width: 310px;
+
+}
+.section-3-stamps-image{
+    padding: 16px;
+    text-align: center;
+}
+
+.section-3-stamps-conteiner h1{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.section-3-stamps-conteiner p{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
