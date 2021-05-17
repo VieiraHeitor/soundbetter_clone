@@ -427,6 +427,177 @@ a{
     position: relative;
     margin-left: 145px;
 }
+.section-6{
+    background-color: #f6f6f6;
+}
+.section-6 .container{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px;
+
+  
+}
+.section-6 .container > *{
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-6 h1{
+    box-sizing: border-box;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 0.67em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: inherit;
+
+}
+
+.section-6 h2{
+    box-sizing: border-box;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: inherit;
+}
+
+.section-6 .review-container{
+    max-width: 480px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.section-6 .review-container .review-button{
+    box-sizing: border-box;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    line-height: 1;
+    letter-spacing: inherit;
+    padding: 0px;
+    cursor: inherit;
+    display: inline-flex;
+    color: #575757;
+    position: relative;
+}
+.section-6 .review-container .review-svg{
+    stroke-width: 1pt;
+}
+.section-6 .review-container .review-cards-container{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    margin: 48px 24px;
+    overflow: hidden;
+}
+.section-6 .review-container .review-cards-container .review-cards{
+    display: flex;
+    position: relative;
+    transition: left 500ms ease-in-out 0s;
+    min-width: 100%;
+    will-change: left;
+}
+
+.review-text-container{
+    height: 330px;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 475px;
+    justify-content: space-around;
+    padding: 32px 16px;
+    text-align: center;
+    min-width: 100%;
+}
+
+.review-title{
+    box-sizing: border-box;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: inherit;
+}
+.review-id{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.review-avatar{
+    visibility: visible;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.review-text-who{
+    margin-top: 8px;
+    box-sizing: border-box;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #575757;
+}
+
+.section-6 .logos-container > *{
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.section-6 .logos-container{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 48px 48px;
+}
+
 .section-7{
     display: flex;
     flex-direction: row;
@@ -473,7 +644,7 @@ a{
 }
 .section-7 .trusted-article .trusted-title{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px 0px 0.75em;
@@ -511,7 +682,7 @@ a{
 }
 .section-7 .trusted-card-title{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px;
@@ -526,7 +697,7 @@ a{
 }
 .section-7 .trusted-card-subtitle{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px;
@@ -606,7 +777,7 @@ a{
 }
 .section-8 .overlay-text .title{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     margin-top: 0px;
@@ -620,7 +791,7 @@ a{
 }
 .section-8 .overlay-text .title2{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding-bottom: 0.67em;
@@ -653,7 +824,7 @@ a{
     width: 40px;
 
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;  
     border: 0px;
     line-height: 1;
@@ -674,7 +845,7 @@ a{
 }
 .section-8 .article p{
     box-sizing: border-box;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: circular-spotify, Helvetica, Arial, sans-serif;
     -webkit-tap-highlight-color: transparent;
     display: block;
     padding: 0px;
