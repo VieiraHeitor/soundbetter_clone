@@ -427,6 +427,120 @@ a{
     position: relative;
     margin-left: 145px;
 }
+.section-7{
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+}
+.section-7 .img-container{
+    position: relative;
+    width: calc(100% - 500px);
+}
+.section-7 .img-container .img{
+
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.section-7 .img-container img{
+    visibility: visible;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-7 .trusted-article{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 48px 24px;
+    width: 100%;
+}
+.section-7 .trusted-article .trusted-title{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 0.75em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: inherit;
+    font-weight: 700;
+    width: 515px;
+}
+.section-7 .trusted-points{
+    flex-flow: row wrap;
+    display: flex;
+    width: 100%;
+}
+.section-7 .trusted-card{
+    width: 50%;
+    display: flex;
+
+}
+.section-7 .trusted-canvas{
+    max-width: 300px;
+    padding: 8px;
+}
+.section-7 .trusted-svg{
+    stroke-width: 1.2pt;
+    display: flex;
+    
+}
+.section-7 .trusted-card-text{
+    max-width: 300px;
+    padding: 8px;
+}
+.section-7 .trusted-card-title{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: inherit;
+    font-weight: 700;
+    max-width: 300px;
+}
+.section-7 .trusted-card-subtitle{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #575757;
+    max-width: 300px;
+}
+
+
 
 .section-8{
     position: relative;
